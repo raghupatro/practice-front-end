@@ -1,0 +1,211 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.top-img {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.bottom-img {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+h1 {
+  color: #6d708d;
+}
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+hr {
+  width: 80%;
+  border: 1px 0px 0px 0px;
+
+  margin: 20px auto 20px auto;
+}
+.choice {
+  padding: 30px;
+  margin-bottom: 20px;
+  color: #b3b5c6;
+}
+.foreground {
+  margin: auto;
+  padding: 100px;
+
+  line-height: 1rem;
+}
+.price-monthly {
+  display: inline-block;
+  font-size: 4rem;
+  padding: 60px 20px 60px 10px;
+}
+.price-annual {
+  display: none;
+  font-size: 4rem;
+  padding: 60px 20px 60px 10px;
+}
+.choice {
+  color: #6d708d;
+}
+.basic {
+  display: inline-block;
+  padding: 20px;
+  background-color: white;
+  border-radius: 0.7rem;
+  color: #494c5f;
+  margin: 50px auto 50px auto;
+}
+.professional {
+  display: inline-block;
+  background-color: #696fdd;
+  padding: 40px 10px 40px 10px;
+  border-radius: 0.7rem;
+  color: white;
+  margin: 50px auto 50px auto;
+}
+.master {
+  display: inline-block;
+  padding: 20px;
+  background-color: white;
+  border-radius: 0.7rem;
+  color: #494c5f;
+  margin: 50px auto 50px auto;
+}
+.dollar {
+  display: inline-block;
+  font-size: 2.5rem;
+
+  position: relative;
+  bottom: 0.5rem;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  bottom: 7px;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #696fdd;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider:hover {
+  background-color: #6d708d;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #696fdd;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.word {
+  display: inline-block;
+  padding: 25px;
+}
+
+.learn-more-basic {
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  padding: 0.5rem;
+  background-color: #696fdd;
+  color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #696fdd;
+}
+.learn-more-basic:hover {
+  background-color: white;
+  color: #696fdd;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #494c5f;
+}
+.learn-more-professional {
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  padding: 0.5rem;
+  background-color: white;
+  color: #696fdd;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: white;
+}
+.learn-more-professional:hover {
+  background-color: #696fdd;
+  color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: white;
+}
+.learn-more-master {
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  padding: 0.5rem;
+  background-color: #696fdd;
+  color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #696fdd;
+}
+.learn-more-master:hover {
+  background-color: white;
+  color: #696fdd;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #494c5f;
+}
