@@ -11,7 +11,7 @@ function setMonthlyPrice() {
 document
   .getElementById("price-checkbox")
   .addEventListener("click", function (event) {
-    if (document.getElementById("price-checkbox").checked === true) {
+    if (document.getElementById("price-checkbox").checked === false) {
       setAnnualPrice();
     } else setMonthlyPrice();
   });
