@@ -25,6 +25,7 @@ body {
   font-size: 15px;
   font-weight: 700;
 }
+
 hr {
   width: 80%;
   border: 1px 0px 0px 0px;
@@ -32,6 +33,7 @@ hr {
   margin: 20px auto 20px auto;
 }
 .choice {
+  display: block;
   padding: 30px;
   margin-bottom: 20px;
   color: #b3b5c6;
@@ -42,16 +44,12 @@ hr {
 
   line-height: 1rem;
 }
-.price-monthly {
+.price {
   display: inline-block;
   font-size: 4rem;
   padding: 60px 20px 60px 10px;
 }
-.price-annual {
-  display: none;
-  font-size: 4rem;
-  padding: 60px 20px 60px 10px;
-}
+
 .choice {
   color: #6d708d;
 }
@@ -155,6 +153,7 @@ input:checked + .slider:before {
 
 .word {
   display: inline-block;
+
   padding: 25px;
 }
 

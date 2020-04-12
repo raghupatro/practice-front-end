@@ -35,7 +35,11 @@
       <div class="choice">
         <div class="word">Annually</div>
         <label class="switch">
-          <input type="checkbox" />
+          <input
+            id="price-checkbox"
+            type="checkbox"
+            data-target="#ifelse #notifelse"
+          />
           <span class="slider round"></span>
         </label>
         <div class="word">Monthly</div>
@@ -43,8 +47,8 @@
       <div class="basic">
         Basic <br />
         <div class="dollar">$</div>
-        <div class="price-monthly">19.99</div>
-        <div class="price-annual">199.99</div>
+        <div class="price">19.99</div>
+
         <br />
         <hr />
         500 GB Storage
@@ -58,8 +62,8 @@
       <div class="professional">
         Professional <br />
         <div class="dollar">$</div>
-        <div class="price-monthly">24.99</div>
-        <div class="price-annual">249.99</div>
+        <div class="price">24.99</div>
+
         <br />
         <hr />
         1 TB Storage
@@ -73,8 +77,8 @@
       <div class="master">
         Master<br />
         <div class="dollar">$</div>
-        <div class="price-monthly">39.99</div>
-        <div class="price-annual">399.99</div>
+        <div class="price">39.99</div>
+
         <br />
         <hr />
         2 TB Storage
@@ -92,5 +96,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Shashank Raghupatro</a>.
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
